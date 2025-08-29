@@ -1,9 +1,14 @@
 pip install -r requirements.txt
 
-run frontend
+
+#run frontend
+
 -cd frontend
+-npm install
 -npm run dev
 
-run backend:
+
+#run backend:
+
 -cd backend
 -python -m uvicorn app:app --reload
